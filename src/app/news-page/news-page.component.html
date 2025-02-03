@@ -1,0 +1,16 @@
+<div>
+    @for (headline of this.topHeadlines; track headline.source.id) {
+        <div>
+            <app-news-box 
+            [title]="headline.title"
+            [urlToImage]="headline.urlToImage"
+            [publishedAt]="headline.publishedAt"
+            [author]="headline.author"
+            [description]="headline.description"
+            [url]="headline.url"
+            [content]="headline.content"
+            ></app-news-box>
+        </div>
+    }
+    
+</div>

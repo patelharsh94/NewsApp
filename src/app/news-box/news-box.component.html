@@ -1,0 +1,28 @@
+<div class="news-box">
+    <div class="title">
+        {{this.title()}}
+    </div>
+    <div class="news-image">
+        <div>
+            <img class="image" src="{{this.urlToImage()}}" alt="news image">
+        </div>
+    </div>
+    <div class="details">
+        <div class="date">
+            {{this.publishedAt()}}
+        </div>
+        <div class="author">
+            {{this.author()}}
+        </div>
+        <div class="description">
+            {{this.description()}}
+        </div>
+        <div class="url">
+            <a href="{{this.url()}}">Read More</a>
+        </div>
+        <div class="content">
+            {{this.content()}}
+        </div>
+    </div>
+
+</div>

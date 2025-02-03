@@ -1,0 +1,30 @@
+.news-box {
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-top: 1%;
+    align-items: center;
+    justify-items: center;
+
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .news-image {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        .image {
+            width: 65%;
+            height: 65%;
+        }
+    }
+
+    .details {
+        border-top: 1px solid black;
+        padding: 1%;
+    }
+
+}
